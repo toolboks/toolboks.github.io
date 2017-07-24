@@ -1,6 +1,6 @@
 - title: Home
   folder: 
 - title: Textarea
-  folder: textarea
+  folder: textarea/
 - title: Bookmarklet
-  folder: bookmarklet
+  folder: bookmarklet/
