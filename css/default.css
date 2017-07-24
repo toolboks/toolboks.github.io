@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body>nav {
+	order: 1;
+}
+
+body>nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+body>nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: .1em;
+	margin: .2em;
+}
+
+body>header {
+	order: 2;
+}
+
+body>main {
+	order: 3;
+}

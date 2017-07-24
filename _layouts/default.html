@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel='stylesheet' href='{{ site.path }}/css/default.css' />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body>
+    <header>
+    	<h1>{{ page.title }}</h1>
+    </header>
+    <nav>
+		<ul>
+			{% for item in site.data.main %}
+  				<li>
+  					<a href="{{ site.path }}/{{ item.folder}}">
+  						{{ item.title }}
+  					</a>
+  				</li>
+  			{% endfor %}
+		</ul>
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
