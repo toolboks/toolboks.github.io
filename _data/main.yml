@@ -4,3 +4,5 @@
   folder: textarea/
 - title: Bookmarklet
   folder: bookmarklet/
+- title: DataURI
+  folder: datauri/

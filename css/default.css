@@ -46,3 +46,11 @@ body>main {
 	grid-column: 1;
 	grid-row: 3;
 }
+
+body>footer {
+	text-align: center;
+}
+
+p {
+	margin: 0;
+}
