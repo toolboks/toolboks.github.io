@@ -1,0 +1,9 @@
+{
+	"description":"Simple web form with a textarea",
+	"icons":{
+		"48": "textarea.svg",
+		"96": "textarea.svg"
+	},
+	"name":"Textarea",
+	"short_name":"Textarea",
+}
