@@ -6,4 +6,5 @@
 	},
 	"name":"Textarea",
 	"short_name":"Textarea",
+	"display": "standalone"
 }
