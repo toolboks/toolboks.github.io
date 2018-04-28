@@ -7,7 +7,7 @@
 	}],
 	"name":"Textarea",
 	"short_name":"Textarea",
-	"display": "fullscreen",
+	"display": "standalone",
 	"background_color": "white",
 	"start_url": "/textarea/"
 }
