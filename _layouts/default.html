@@ -5,9 +5,7 @@
     <link rel='stylesheet' href='{{ site.path }}/css/default.css' />
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
-    {% for header in page.headers %}
-      {{ header }}
-    {% endfor %}
+    {% for header in page.headers %}{{ header }}{% endfor %}
   </head>
   <body>
     <header>
