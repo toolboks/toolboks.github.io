@@ -1,7 +1,7 @@
 ---
 layout: default
 title: textarea
-headers : ['<link rel="manifest" href="manifest.json"/>']
+headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
 ---
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function(e){
