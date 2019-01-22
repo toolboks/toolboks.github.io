@@ -1,7 +1,7 @@
 {
 	"description":"Simple web form with a textarea",
 	"icons":[
-		{"src": "/textarea/textarea.svg",
+		{"src": "textarea.svg",
 		"sizes": "48x48",
 		"type": "image/svg+xml"
 	}],
@@ -9,5 +9,5 @@
 	"short_name":"Textarea",
 	"display": "standalone",
 	"background_color": "white",
-	"start_url": "/textarea/"
+	"start_url": "."
 }
