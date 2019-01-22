@@ -9,5 +9,5 @@
 	"short_name":"Textarea",
 	"display": "standalone",
 	"background_color": "white",
-	"start_url": "."
+	"start_url": "index.html"
 }
