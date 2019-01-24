@@ -1,5 +1,8 @@
 {
 	"description":"Simple web form with a textarea",
+	"icons":[
+		{"src": "textarea.png"}
+		],
 	"name":"Textarea",
 	"short_name":"Textarea",
 	"display": "standalone",
