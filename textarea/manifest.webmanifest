@@ -6,5 +6,6 @@
 	"short_name":"Textarea",
 	"display": "standalone",
 	"background_color": "white",
-	"start_url": "index.html"
+	"start_url": "index.html",
+	"scope": "/textarea/"
 }
