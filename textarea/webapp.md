@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: webapp
 title: textarea
 headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
 ---
