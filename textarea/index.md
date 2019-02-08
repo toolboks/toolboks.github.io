@@ -20,16 +20,14 @@ headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
 </form>
 <style type="text/css">
 	form[name = 'textinput'] {
-		width: 100%;
 		height: 100%;
-		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
 	}
 
 	form[name = 'textinput'] textarea {
-		display: flex;
-		width: calc(100% - .4em);
-		height: calc(100% - .4em);
 		box-sizing: border-box;
 		margin: .2em;
+		flex: 1;
 	}
 </style>
