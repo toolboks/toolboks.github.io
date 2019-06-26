@@ -27,6 +27,10 @@ prompt('Copy the text:', texttocopy);`
 		{
 			title: 'Save to Pocket',
 			script: `window.open('https://getpocket.com/edit?url='+window.location);`
+		},
+		{
+			title: 'Open via Hypothes.is',
+			script: `window.open('https://via.hypothes.is/'+window.location);`
 		}
 	];
 
