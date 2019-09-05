@@ -1,7 +1,7 @@
 ---
 layout: webapp
 title: textarea
-headers : ['<link rel="manifest" href="manifest.webmanifest"/>','<link rel='stylesheet' href='/textarea/webapp.css' />']
+headers : ['<link rel="manifest" href="manifest.webmanifest"/>','<link rel="stylesheet" href="/textarea/webapp.css" />']
 ---
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function(e){
