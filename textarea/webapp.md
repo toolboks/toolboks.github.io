@@ -1,10 +1,11 @@
 ---
 layout: webapp
 title: textarea
-headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
+headers : ['<link rel="manifest" href="manifest.webmanifest"/>','<link rel='stylesheet' href='/textarea/webapp.css' />']
 ---
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function(e){
+		
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register('/textarea/sw.js', { scope: '/textarea/' }).then(function(reg) {
 				if(reg.installing) {
@@ -20,7 +21,6 @@ headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
 				console.log('Registration failed with ' + error);
 				});
 		}
-
 
 		document.forms.textinput.addEventListener('keyup', function(e) {
 			localStorage.textarea_text = document.forms.textinput.text.value;

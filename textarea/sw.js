@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/textarea/',
         '/textarea/webapp.html',
-        '/css/style.css'
+        '/textarea/webapp.css'
       ]);
     })
   );
