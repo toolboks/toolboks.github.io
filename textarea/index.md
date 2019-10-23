@@ -29,5 +29,7 @@ headers : ['<link rel="manifest" href="manifest.webmanifest"/>']
 		box-sizing: border-box;
 		margin: .2em;
 		flex: 1;
+		border: 1px solid black;
+		background-color: transparent;
 	}
 </style>
