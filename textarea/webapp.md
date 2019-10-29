@@ -48,5 +48,6 @@ headers : ['<link rel="manifest" href="manifest.webmanifest"/>','<link rel="styl
 		flex: 1;
 		border: 1px solid black;
 		background-color: transparent;
+		color: var(--ft_color);
 	}
 </style>
