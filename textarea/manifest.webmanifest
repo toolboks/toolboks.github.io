@@ -1,6 +1,7 @@
 {
 	"icons":[
-		{"src": "textarea.png", "sizes": "48x48"}
+		{"src": "textarea_192.png", "sizes": "192x192"},
+		{"src": "textarea_512.png", "sizes": "512x512"}
 		],
 	"name":"Textarea",
 	"short_name":"Textarea",
