@@ -2,6 +2,7 @@
 	:root {
 		--bg_color: whitesmoke;
 		--ft_color: #444;
+		--link_color: MidnightBlue;
 	}
 }
 
@@ -9,6 +10,7 @@
 	:root {
 		--bg_color: #444;
 		--ft_color: whitesmoke;
+		--link_color: SteelBlue;
 	}
 }
 
@@ -46,6 +48,7 @@ body>nav a {
 	text-decoration: none;
 	padding: .1em;
 	margin: .2em;
+	color: var(--link_color);
 }
 
 body>header {
