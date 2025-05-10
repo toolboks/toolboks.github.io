@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.addEventListener('message', e => {
+        document.body.innerHTML += `<div>${e.data}</div>`;
+        e.source.postMessage(e.data, '*');
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
