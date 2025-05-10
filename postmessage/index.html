@@ -3,11 +3,23 @@
   <head>
     <script>
       window.addEventListener('message', e => {
-        document.body.innerHTML += `<div>${e.data}</div>`;
+        let origin = null;
+        try {
+          origin = e.origin;
+        } catch(err) {
+          origin = err;
+        }
+        document.querySelector('tbody').innerHTML += `<tr><td>${e.origin}</td><td>${e.data}</td></tr>`;
         e.source.postMessage(e.data, '*');
       });
     </script>
   </head>
   <body>
+    <table>
+      <thead>
+        <tr><td>origin</td><td>data</td></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </body>
 </html>
