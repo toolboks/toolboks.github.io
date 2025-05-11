@@ -3,12 +3,13 @@ layout: default
 title: postmessage
 ---
 <script type="text/javascript">
-	document.addEventListener('DOMContentLoaded', e => {
-		document.forms.postmessage.addEventListener('submit', e => {
+  document.addEventListener('DOMContentLoaded', e => {
+    document.forms.postmessage.addEventListener('submit', e => {
       e.preventDefault();
-			let iframe = document.querySelector('iframe');
+      let iframe = document.querySelector('iframe');
       iframe.contentWindow.postMessage(e.target.message.value, '*');
-	});
+    });
+  });
   window.addEventListener('message', e => {
     console.log(e.data);
   });
